@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin : 0;
+  padding: 0;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+  background-color: #1C2833;
+  font-family: "Permanent Marker";
+  transition: background-color 600ms ease;
+}
+
+#mapWrapper {
+  margin: 0 auto;
+  margin-bottom : 5em;
+  font-size: 0;
+  position: relative;
+  border:  1px solid #273746
+}
+
+#mapWrapper,
+.tile {
+  background-color: #21618C;
+  transition: all 400ms ease;
+}
+
+.tile {
+  border:  1px solid #273746;
+  display:  inline-block;
+  margin:  0;
+}
+
+.miner {
+  position:  absolute;
+  height: 35px;
+  padding-left:  4px;
+  left:  0;
+  top:  0;
+  transition: all 500ms ease;
+}
+
+.falseTile {
+  background-color: #1C2833;
+  border: 1px solid #1C2833;
+}
+
+.exitTile {
+  background-color: #58D68D;
+}
+
+.title {
+  font-size: 30px;
+  display: block;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:  3em;
+  margin-bottom:  2em;
+}
+
